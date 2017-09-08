@@ -6,9 +6,7 @@ import Footer from '../footer/Footer';
 export default class Home extends Component {
   render() {
 	  var hello = []
-	  for (let i = 0; i < 100; i++) {
-		  hello.push(<div>"hello, world!" <br/></div>)
-	  }
+	  hello.push("hei");
     return (
         <div className="home">
 			<Nav />
