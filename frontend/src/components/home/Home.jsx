@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Home.css';
 import Nav from '../navbar/Nav';
 import Footer from '../footer/Footer';
+import About from '../about/About'
 
 export default class Home extends Component {
   render() {
@@ -18,7 +19,7 @@ export default class Home extends Component {
                 <Nav />
             </header>
             <div className="content">
-                
+                <About />
             </div>
 			<Footer />
 		</div>
