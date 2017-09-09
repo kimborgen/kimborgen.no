@@ -17,6 +17,7 @@ export default class Home extends Component {
         <div className="home">
             <header className="home__header">
                 <Nav />
+                <img src="tmp_header.png"></img>
             </header>
             <div className="content">
                 <About />
