@@ -1,0 +1,28 @@
+.cv__wrapper {
+	width: 100%;
+	padding-left: 12vw;
+	padding-right: 12vw;
+}
+
+.cv {
+	width: 100%;
+	/*height: 127.278vw;*/
+	height: 107.4792vw;
+	display: grid;
+	grid-template-columns: repeat(17, 1fr);
+	grid-template-rows: repeat(24, 1fr);
+	grid-auto-flow: row;
+	justify-content: center;
+	grid-auto-rows: 1fr;
+	grid-auto-columns: 1fr;
+	margin-bottom: 10vh;
+	border: 1px solid rgb(232, 229, 229);
+}
+
+
+.cv > h1 {
+	text-align: center;
+	font-size: 50px;
+	grid-column: 1/18;
+	grid-row: 1/3;
+}

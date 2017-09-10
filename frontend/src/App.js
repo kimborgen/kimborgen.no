@@ -7,12 +7,16 @@ import {
  Link
 } from 'react-router-dom'
 import Home from './components/home/Home'
+import CV from './components/cv/CV'
 
 class App extends Component {
   render() {
     return (
         <Router>
-            <Route exact path="/" component={Home}/>
+            <div>
+                <Route exact path="/" component={Home} />
+                <Route path="/cv" component={CV} />
+            </div>
         </Router>
     );
   }

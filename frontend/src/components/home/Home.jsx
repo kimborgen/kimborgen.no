@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './Home.css';
 import Nav from '../navbar/Nav';
 import Footer from '../footer/Footer';
-import About from '../about/About'
+import About from '../about/About';
+import CV from '../cv/CV';
 
 export default class Home extends Component {
   render() {
@@ -21,6 +22,7 @@ export default class Home extends Component {
             </header>
             <div className="content">
                 <About />
+                <CV />
             </div>
 			<Footer />
 		</div>
