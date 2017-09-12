@@ -17,6 +17,14 @@ export default class CV extends Component {
 				<p className="header__text">Visit <a href="kimborgen.no">kimborgen.no</a> for more information</p>
 				<div className="cvPicture"></div>
                 <h2 className="intrests">Main areas of intrests</h2>
+                <ul className="intrests__bullet1">
+                    <li>Blockchain & Ethereum</li>
+                    <li>Artificial Intelligence</li>
+                </ul>
+                <ul className="intrests__bullet2">
+                    <li>Full-stack web-development</li>
+                    <li>Marketing & Design</li>
+                </ul>
 				<div className="divider__top"></div>
 				<h2 className="education">Education</h2>
 				<div className="education__wrapper">
