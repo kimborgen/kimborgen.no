@@ -15,8 +15,8 @@ export default class CV extends Component {
 	        <section className="cv">
 	            <h1>Kim Borgen</h1>
 				<p className="header__text">Visit <a href="kimborgen.no">kimborgen.no</a> for more information</p>
-				<h2 className="personalStatement">Personal Statement</h2>
-				<p className="personalStatement__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur bsDuis aute irure</p>
+				<div className="cvPicture"></div>
+                <h2 className="intrests">Main areas of intrests</h2>
 				<div className="divider__top"></div>
 				<h2 className="education">Education</h2>
 				<div className="education__wrapper">
@@ -32,16 +32,14 @@ export default class CV extends Component {
 					<img src="skills_circle.svg"></img>
 					<img src="skills_circle.svg"></img>
 					<div></div><div></div>
-					<p>Html, css & js</p>
+					<p>Html, css, js & react</p>
 					<p>Django & rails</p>
 					<p>Python, go & java</p>
 					<p>Servers & sysadmin</p>
 					<p>Graphical Design</p>
 					<p>Film, editing & 3D</p>
-
-
-
 				</div>
+				<h2 className="experiences">Experiences</h2>
 			</section>
 		</div>
     );
