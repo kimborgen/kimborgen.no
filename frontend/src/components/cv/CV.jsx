@@ -82,6 +82,15 @@ export default class CV extends Component {
                     <li><b>Decentralized exchange built on ethereum - </b> The exchange is built upon smart contract code in ethereum's language solidity. Details still secret, stay tuned!</li>
                 </ul>
 
+                <h2 className="contact">Contact Information</h2>
+                <ul className="contact__list">
+                    <li>Trondheim & Oslo (Norway)</li>
+                    <li><a href="https://github.com/kimborgen" target="newtab">github.com/kimborgen</a></li>
+                    <li><a href="mailto:ceo@kimborgen.no">ceo@kimborgen.no</a></li>
+                    <li><a href="http://kimborgen.no" target="newtab">kimborgen.no</a></li>
+                    <li>48357052</li>
+                </ul>
+
 
 			</section>
 		</div>

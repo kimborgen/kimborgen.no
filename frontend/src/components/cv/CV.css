@@ -312,3 +312,23 @@ a:hover {
 	text-align: justify;
 	padding-right: 1em;
 }
+
+.cv > .contact {
+	padding-top: 3vh;
+	grid-row: 19/21;
+	grid-column: 11/18;
+	text-align: center;
+}
+
+.cv > .contact__list {
+	grid-row: 20/25;
+	grid-column: 11/17;
+	list-style-type: none;
+	margin-top: 3vh;
+	margin-right: 1.4vw;
+}
+
+.cv > .contact__list > li {
+	margin-top: 1.5em;
+	text-align: right;
+}
