@@ -86,8 +86,16 @@ a:hover {
 	grid-row: 7/9;
 	font-size: 0.9vw;
 	align-self:flex-start;
-	margin-top: -0.2vh;
+	margin-top: -2vh;
 	list-style:square;
+}
+
+.cv > .intrests__bullet1 > li {
+	margin-top: 1vh;
+}
+
+.cv > .intrests__bullet2 > li {
+	margin-top: 1vh;
 }
 
 .cv > .intrests__bullet2 {
@@ -95,7 +103,7 @@ a:hover {
 	grid-row: 7/9;
 	font-size: 0.9vw;
 	align-self: flex-start;
-	margin-top: -0.2vh;
+	margin-top: -2vh;
 	list-style:square;
 	margin-left: -1.9vw;
 }
@@ -188,8 +196,8 @@ a:hover {
 }
 
 .cv > .skills__wrapper > img:nth-of-type(3) {
-	-webkit-clip-path: polygon(50% 50%, 65% 0%, 100% 0%, 100% 70%, 100% 100%, 0 100%, 0 0, 50% 0);
-	clip-path: polygon(50% 50%, 65% 0%, 100% 0%, 100% 70%, 100% 100%, 0 100%, 0 0, 50% 0);
+	-webkit-clip-path: polygon(50% 50%, 100% 0%, 100% 0%, 100% 70%, 100% 100%, 0 100%, 0 0, 50% 0);
+	clip-path: polygon(50% 50%, 100% 35%, 100% 0%, 100% 70%, 100% 100%, 0 100%, 0 0, 50% 0);
 }
 
 .cv > .skills__wrapper > img:nth-of-type(4) {

@@ -67,7 +67,7 @@ export default class CV extends Component {
                 <p className="experiences__xcom__description">Sole developer and sysadmin for the exursion comitee at Abakus, a student organization for MSc's in CS & CommTech. I refreshed the design on our website, and I am currrently responsible for further web-development, data managment, and server setup & maintenance. The website can be visited at <a href="https://xcom18.abakus.no" target="newtab">xcom18.abakus.no</a></p>
 
                 <p className="experiences__isfit__date">April 2016 - March 2017</p>
-                <h3 className="experiences__isfit__header">Full-stack web-developer at ISfIT 2017</h3>
+                <h3 className="experiences__isfit__header">Full-stack web-developer at <a href="https://isfit.org" target="newtab">ISfIT 2017</a></h3>
                 <p className="experiences__isfit__description">A member of the IT group at the <a href="https://isfit.org" target="newtab">ISfIT festival in 2017</a>. Worked with a team of 10 people. My main area of responsibility was developing our internal site with another developer, this internal site served close to 500 people.</p>
 
                 <div className="divider__experiences__bottom"><div></div></div>
