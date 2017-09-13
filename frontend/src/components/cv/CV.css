@@ -23,7 +23,7 @@
 
 
 
-p {
+p, li {
 	font-size: 0.9vw;
 	line-height: 1.5em;
 }
@@ -282,4 +282,24 @@ h2 {
 	border-right: 1px solid rgb(222,222,222);
 	transform: skewX(15deg);
 	z-index: 1;
+}
+
+.cv > .projects {
+	padding-top: 3vh;
+	grid-row: 19/21;
+	grid-column: 2/11;
+}
+.cv > .projects__list {
+	grid-row: 20/25;
+	grid-column: 1/11;
+	line-height: 1.5em;
+	margin-top: 3vh;
+}
+
+.cv > .projects__list > li {
+	font-size: 0.8vw;
+	line-height: 1.5em;
+	margin-top: 0.8em;
+	text-align: justify;
+	padding-right: 1em;
 }
