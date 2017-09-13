@@ -201,11 +201,65 @@ h2 {
 
 
 .cv > .experiences {
-	grid-row: 9/10;
+	grid-row: 9/11;
 	grid-column: 1/18;
 	width: 100%;
 	height: 100%;
 	border-top: 1px solid rgb(222,222,222);
-	padding-top: 1em;
-	padding-left: 1em;
+	padding-top: 3vh;
+	padding-left: 3vw;
+}
+
+.cv > .experiences__ascend__date {
+	grid-row: 11/13;
+	grid-column: 1/5;
+	text-align: center;
+}
+
+.cv > .experiences__ascend__header {
+	grid-row: 10/11;
+	grid-column: 5/18;
+}
+
+.cv > .experiences__ascend__description {
+	grid-row: 11/13;
+	grid-column: 5/17;
+}
+
+.cv > .experiences__xcom__date {
+	grid-row: 14/17;
+	grid-column: 1/5;
+	text-align: center;
+}
+
+.cv > .experiences__xcom__header {
+	grid-row: 13/15;
+	grid-column: 5/17;
+}
+
+.cv > .experiences__xcom__description {
+	grid-row: 14/17;
+	grid-column: 5/17;
+}
+
+.cv > .experiences__isfit__date {
+	grid-row: 17/19;
+	grid-column: 1/5;
+	text-align: center;
+}
+
+.cv > .experiences__isfit__header {
+	grid-row: 16/18;
+	grid-column: 5/17;
+}
+
+.cv > .experiences__isfit__description {
+	grid-row: 17/19;
+	grid-column: 5/17;
+}
+
+.cv > .divider__experiences__bottom {
+	grid-row: 19/20;
+	grid-column: 1/18;
+	border-top: 1px solid rgb(222,222,222);
 }
