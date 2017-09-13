@@ -32,6 +32,15 @@ h2 {
 	font-size: 1.75vw;
 }
 
+a {
+	text-decoration: none;
+	color: rgb(75, 75, 75);
+}
+
+a:hover {
+	color: rgb(150, 150, 150);
+}
+
 .cv > * {
 	max-height: 100%;
 	max-width: 100%;
