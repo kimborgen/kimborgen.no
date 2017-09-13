@@ -21,7 +21,7 @@ export default class CV extends Component {
 
                 <h2 className="intrests">Main areas of intrests</h2>
                 <ul className="intrests__bullet1">
-                    <li>Blockchain & Ethereum</li>
+                    <li>Blockchain & Ethereum/Solidity</li>
                     <li>Artificial Intelligence</li>
                 </ul>
                 <ul className="intrests__bullet2">
