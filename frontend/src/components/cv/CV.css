@@ -60,8 +60,8 @@ h2 {
 	grid-row: 1/6;
 	width: 100%;
 	height: 100%;
-	-webkit-clip-path: polygon(0 0, 16.2vw 0, 19.8vw 100%, 0% 100%);
-	clip-path: polygon(0 0, 16.2vw 0, 19.8vw 100%, 0% 100%);
+	-webkit-clip-path: polygon(0 0, 14.7vw 0, 20.2vw 100%, 0% 100%);
+	clip-path: polygon(0 0, 14.7vw 0, 20.2vw 100%, 0% 100%);
 }
 
 .cv > .intrests {
@@ -97,7 +97,7 @@ h2 {
 	grid-column: 6;
 	grid-row: 1/9;
 	border-right: 1px solid rgb(222,222,222);
-	transform: skewX(10deg);
+	transform: skewX(15deg);
 }
 
 .cv > .education {
@@ -261,5 +261,25 @@ h2 {
 .cv > .divider__experiences__bottom {
 	grid-row: 19/20;
 	grid-column: 1/18;
-	border-top: 1px solid rgb(222,222,222);
+	height: 100%;
+	width: 100%;
+	z-index: 2;
+}
+
+.cv > .divider__experiences__bottom > div {
+	border-bottom: 1px solid rgb(222,222,222);
+	background-color: white;
+	height: 50%;
+	width: 100%;
+	z-index: 3;
+}
+
+.cv > .divider__bottom {
+	width: 1.5vw;
+	height: 100%;
+	grid-column: 11;
+	grid-row: 19/25;
+	border-right: 1px solid rgb(222,222,222);
+	transform: skewX(15deg);
+	z-index: 1;
 }

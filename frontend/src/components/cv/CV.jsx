@@ -57,7 +57,8 @@ export default class CV extends Component {
                 <p className="experiences__isfit__date">April 2016 - March 2017</p>
                 <h3 className="experiences__isfit__header">Full-stack web-developer at ISfIT 2017</h3>
                 <p className="experiences__isfit__description">A member of the IT group at the <a href="https://isfit.org" target="newtab">ISfIT festival in 2017</a>. Worked with a team of 10 people. My main area of responsibility was developing our internal site with another developer, this internal site served close to 500 people.</p>
-                <div className="divider__experiences__bottom"></div>
+                <div className="divider__experiences__bottom"><div></div></div>
+                <div className="divider__bottom"></div>
 
 			</section>
 		</div>
