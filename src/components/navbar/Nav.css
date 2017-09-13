@@ -1,0 +1,30 @@
+.nav {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	display:grid;
+	grid-template-columns: auto;
+	grid-auto-flow: column;
+	justify-items: center;
+	align-items: center;
+	height: 75px;
+
+
+
+}
+
+.nav > a {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	color: white;
+}
+
+.nav > a:hover {
+	background: rgba(244,244,244,0.3);
+}
