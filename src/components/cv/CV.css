@@ -273,6 +273,26 @@ a:hover {
 	grid-column: 5/17;
 }
 
+/*
+@media print {
+	.cv > .experiences__ascend__header {
+		grid-row: 10/12;
+		grid-column: 5/18;
+	}
+	.cv > .experiences__ascend__description {
+		grid-row: 12/14;
+		grid-column: 5/17;
+		text-align: justify;
+	}
+
+	.cv > .experiences__ascend__date {
+		grid-row: 11/12;
+		grid-column: 1/5;
+		text-align: center;
+	}
+}
+*/
+
 .cv > .experiences__xcom__date {
 	grid-row: 14/17;
 	grid-column: 1/5;
@@ -292,6 +312,19 @@ a:hover {
 	grid-row: 14/17;
 	grid-column: 5/17;
 }
+/*
+@media print {
+	.cv > .experiences__xcom__header {
+		grid-row: 14/16;
+		grid-column: 5/17;
+	}
+
+	.cv > .experiences__xcom__description {
+		grid-row: 16/18;
+		grid-column: 5/17;
+	}
+}
+*/
 
 .cv > .experiences__isfit__date {
 	grid-row: 17/19;
@@ -312,6 +345,19 @@ a:hover {
 	grid-row: 17/19;
 	grid-column: 5/17;
 }
+
+/*
+@media print {
+	.cv > .experiences__isfit__header {
+		grid-row: 16/18;
+		grid-column: 5/17;
+	}
+	.cv > .experiences__isfit__description {
+		grid-row: 17/19;
+		grid-column: 5/17;
+	}
+}
+*/
 
 .cv > .divider__experiences__bottom {
 	grid-row: 19/20;
@@ -354,7 +400,7 @@ a:hover {
 .cv > .projects__list > li {
 	font-size: calc(0.8vw * var(--vw));
 	line-height: 1.5em;
-	margin-top: 1vh;
+	margin-top: 0.2vh;
 	text-align: justify;
 	padding-right: calc(2vw * var(--vw));
 }
@@ -393,10 +439,16 @@ a:hover {
 	grid-column: 11/17;
 	list-style-type: none;
 	margin-top: 3vh;
-	margin-right: calc(3vw * var(--vw));
+	margin-right: calc(1.5vw * var(--vw));
+}
+
+@media print {
+	.cv > .contact__list {
+		margin-right: calc(3vw * var(--vw));
+	}
 }
 
 .cv > .contact__list > li {
-	margin-top: 1.5em;
+	margin-top: 1.25em;
 	text-align: right;
 }
