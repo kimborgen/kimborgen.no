@@ -1,9 +1,10 @@
 runtime: nodejs
 env: flex
-
-skip_files:
-- node_modules
-- public
-- src
-- README.md
-- .git
+automatic_scaling:
+  max_num_instances: 1
+resources:
+  cpu: 1
+  memory_gb: 0.5
+  disk_size_gb: 10
+env_variables:
+    IS_APP_ENGINE: 'true'
