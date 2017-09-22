@@ -4,6 +4,7 @@ const express = require('express');
 var app = express();
 var graphqlHTTP = require('express-graphql');
 var { buildSchema } = require('graphql');
+var winston = require('winston');
 
 // Construct a schema, using GraphQL schema language
 var schema = buildSchema(`
@@ -29,6 +30,15 @@ app.use('/graphql', graphqlHTTP({
   rootValue: root,
   graphiql: true,
 }));
+
+function requireHTTPS(req, res, next) {
+    if (!req.secure) {
+        //FYI this should work for local development as well
+        return res.redirect('https://' + req.get('host') + req.url);
+    }
+    next();
+}
+app.use(requireHTTPS);
 
 
 const server = app.listen(8080, () => {
