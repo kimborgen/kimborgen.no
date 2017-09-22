@@ -6,7 +6,7 @@ export default class About extends Component {
     return (
         <section className="about">
 			<h1>About me</h1>
-			<img src="tmp_aboutme.jpg"></img>
+			<img src="http://via.placeholder.com/42x42" />
 
             <article>
                 <h2>Student</h2>
@@ -14,24 +14,29 @@ export default class About extends Component {
             </article>
 
             <article>
-                <h2>Volunteer</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h2>Volunteer, Entrepenour & Visonary</h2>
+                <p><i>"I want to make the world a better place"</i> is just empty words before you actually create. My vision is to show, not to tell, that you can make a better world. Today it is by volunteering in things I strongly belive will impact the future in a meaningfull way. Tommorow it is by creating solutions & businesses that defies the status quo.</p>
             </article>
 
-            <div></div>
-
-            <article>
-                <h2>Scientist</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </article>
-
-            <article>
-                <h2>Entrepenour</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </article>
-            <img src="tmp_aboutme2.jpg"></img>
             <div className="about__divider"></div>
 		</section>
     );
   }
 }
+
+/*
+
+
+<div></div>
+
+<article>
+    <h2>Scientist</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</article>
+
+<article>
+    <h2>Entrepenour</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</article>
+<img src="http://via.placeholder.com/42x42" />
+*/

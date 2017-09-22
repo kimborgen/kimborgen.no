@@ -44,12 +44,14 @@
 	max-width: 100%;
 }
 
+/*
 .about > img:last-of-type {
 	grid-row: 5/7;
 	grid-column: 4;
 	height: 100%;
 	max-width: 100%;
 }
+*/
 
 .about > article {
 	max-width: 100%;
