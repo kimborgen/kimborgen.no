@@ -1,16 +1,21 @@
 import React, { Component } from 'react';
 import './About.css';
+var Scroll = require('react-scroll');
+var Element = Scroll.Element;
+var scroller = Scroll.scroller;
+
+
 
 export default class About extends Component {
   render() {
     return (
         <section className="about">
-			<h1>About me</h1>
+			<h1>About me <Element className="element" name="myScrollToElement"></Element></h1>
 			<img src="http://via.placeholder.com/42x42" />
 
             <article>
                 <h2>Student</h2>
-                <p>Hello world! My name is Kim borgen. I am 21 year old student from Norway. I am currently studying a 5 year masters in computer science/engineering with a specialization in Artificial Inteligence, databases & search and Neuroscience at the Norwegian University of Science and Technology (NTNU) in Trondheim.</p>
+                <p>Hello world! My name is Kim borgen. I am 21 year old student from Norway. I am currently studying a 5 year MSc in computer science & engineering with a specialization in Artificial Inteligence, databases & search and Neuroscience at the Norwegian University of Science and Technology (NTNU) in Trondheim.</p>
             </article>
 
             <article>
