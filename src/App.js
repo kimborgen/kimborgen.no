@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom'
 import Home from './components/home/Home'
 import CV from './components/cv/CV'
+import AStar from './components/aStar/AStar'
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
             <div>
                 <Route exact path="/" component={Home} />
                 <Route path="/cv" component={CV} />
+                <Route path="/astar" component={AStar} />
             </div>
         </Router>
     );
