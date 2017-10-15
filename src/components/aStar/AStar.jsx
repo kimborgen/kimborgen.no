@@ -12,6 +12,20 @@ export default class AStar extends Component {
         })
     }
 
+    readStringFromFileAtPath = (pathOfFileToReadFrom) => {
+        var request = new XMLHttpRequest();
+        request.open("GET", pathOfFileToReadFrom, false);
+        request.send(null);
+        var returnValue = request.responseText;
+
+        return returnValue;
+    }
+
+    componentWillMount() {
+        this.setState({
+            board: this.readStringFromFileAtPath("astar_boards/board-1-1.txt")
+        });
+    }
 
 
 
