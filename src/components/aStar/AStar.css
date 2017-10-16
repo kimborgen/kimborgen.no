@@ -1,0 +1,83 @@
+.aStar {
+	width: 100%;
+}
+
+.aStar__board {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(20, 1fr);
+}
+
+.aStar__board_2 {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(40, 1fr);
+}
+
+.aStar__cell {
+	font-size: 20px;
+	text-align: center;
+	border: 0.5px solid rgb(51, 51, 51);
+	min-width: 2.5vw;
+	min-height: 2.5vw;
+}
+
+.aStar__wall {
+	background: grey;
+}
+
+.aStar__open {
+	background: yellow;
+}
+
+.aStar__closed {
+	background: red;
+}
+
+.aStar__path {
+	background: rgba(6, 237, 64, 0.42);
+	font-weight: bold;
+}
+
+.aStar__boardSelectors {
+	display: flex;
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+}
+
+.aStar__startAlgo  {
+	display: flex;
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+}
+
+button {
+	flex: 1;
+	height: 6vh;
+	background: rgb(200, 200, 200);
+	border: none;
+}
+
+button:hover {
+	background: rgba(200, 200, 200, 0.5);
+}
+
+.aStar__water {
+	background: blue;
+}
+
+.aStar__mountains {
+	background: grey;
+}
+
+.aStar__forests {
+	background-color: rgb(12, 106, 0);
+}
+
+.aStar__grasslands {
+	background: rgb(26, 222, 134);
+}
+
+.aStar__roads {
+	background: brown;
+}
