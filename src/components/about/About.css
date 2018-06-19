@@ -35,6 +35,12 @@
 	padding-bottom: 1em;
 }
 
+@media (max-width: 500px) {
+	.about > h1 {
+		color: white;
+	}
+}
+
 .about > img:first-of-type {
 	grid-row: 2/4;
 	grid-column: 1;
