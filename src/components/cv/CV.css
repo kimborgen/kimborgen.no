@@ -27,7 +27,7 @@
 	border: 1px solid rgb(232, 229, 229);
 }
 
-@media print, (max-width: 1000px) {
+@media print, (max-width: 1100px) {
 	:root {
 		--vw: 1.4;
 	}
@@ -104,7 +104,7 @@ a:hover {
 	clip-path: polygon(0 0, 72% 0, 97.5% 100%, 0% 100%);
 }
 
-@media print , (max-width: 1000px) {
+@media print , (max-width: 1100px) {
 	.cv > .cvPicture{
 		-webkit-clip-path: polygon(0 0, 69% 0, 93.5% 100%, 0% 100%);
 		clip-path: polygon(0 0, 69% 0, 93.5% 100%, 0% 100%);
@@ -117,6 +117,7 @@ a:hover {
 	text-align: left;
 	padding-right: 1.2vw;
 	padding-top: 0.5vh;
+	margin-left: 2.6vh;
 }
 
 .cv > .intrests__bullet1 {
@@ -145,16 +146,34 @@ a:hover {
 	text-align: left;
 }
 
-@media print, (max-width: 1000px) {
+@media print, (max-width: 1100px) {
 	.cv > .intrests__bullet1 {
-		line-height: calc(1em * var(--vw));
+		line-height: calc(0.5em * var(--vw));
 	}
 	.cv > .intrests__bullet1 > li {
-		margin-left: -4vh;
+		margin-left: -1vh;
+		margin-top: 0.5vh;
 	}
 	
 	.cv > .intrests__bullet2 > li {
-		margin-left: -4vh;
+		margin-left: -1vh;
+		margin-top: 0.5vh;		
+	}
+
+}
+
+@media print, (max-width: 800px) {
+	.cv > .intrests__bullet1 {
+		line-height: calc(0.5em * var(--vw));
+	}
+	.cv > .intrests__bullet1 > li {
+		margin-left: -3.2vh;
+		margin-top: 0.5vh;
+	}
+	
+	.cv > .intrests__bullet2 > li {
+		margin-left: -3.2vh;
+		margin-top: 0.5vh;		
 	}
 
 }
@@ -433,7 +452,7 @@ a:hover {
 	margin-bottom: 0;
 }
 
-@media print, (max-width: 1000px){
+@media print, (max-width: 1100px){
 	.cv > .projects__list > li:nth-child(2) {
 		margin-top: 0vh;
 	}
@@ -468,7 +487,7 @@ a:hover {
 	margin-right: calc(1.5vw * var(--vw));
 }
 
-@media print, (max-width: 1000px){
+@media print, (max-width: 1100px){
 	.cv > .contact__list {
 		margin-right: calc(3vw * var(--vw));
 	}
