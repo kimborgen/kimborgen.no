@@ -1,36 +1,28 @@
-import React, { Component } from 'react';
-import './About.css';
-var Scroll = require('react-scroll');
-var Element = Scroll.Element;
-var scroller = Scroll.scroller;
-
-
+import React, { Component } from 'react'
+import './About.css'
+var Scroll = require('react-scroll')
+var Element = Scroll.Element
+var scroller = Scroll.scroller
 
 export default class About extends Component {
-  render() {
+  render () {
     return (
-        <section className="about">
-			<h1>About me <Element className="element" name="myScrollToElement"></Element></h1>
-			<img src="http://via.placeholder.com/42x42" />
+      <section className='about'>
+        <h1>About me <Element className='element' name='scrollToAbout' /></h1>
+        <img src='blockchain-ai.png' />
 
-            <article>
-                <h2>Student</h2>
-                <p>Hello world! My name is Kim borgen. I am 21 year old student from Norway. I am currently studying a 5 year MSc in computer science & engineering with a specialization in Artificial Inteligence, databases & search and Neuroscience at the Norwegian University of Science and Technology (NTNU) in Trondheim.</p>
-            </article>
+        <article>
+          <h2>Passion</h2>
+          <p>I believe emerging technologies such as <b>blockchain</b> and <b>artificial intelligence</b> has the ability to revolutionize and <b>disrupt</b> the current way of life. These technologies allows us not only to rebuild old and uneffective systems, but to create new, <b>innovative</b> and <b>creative</b> solutions that benefit <b>everyone</b> and will usher in a brand new globalized, automized and <b>decentralized</b> age.</p>
+        </article>
 
-            <article>
-                <h2>Volunteer, Entrepenour & Visonary</h2>
-                <p><i>"I want to make the world a better place"</i> is just empty words before you actually create. My vision is to show, not to tell, that you can make a better world. Today it is by volunteering in things I strongly belive will impact the future in a meaningfull way. Tommorow it is by creating solutions & businesses that defies the status quo.</p>
-            </article>
-
-            <div className="about__divider"></div>
-		</section>
-    );
+        <div className='about__divider' />
+      </section>
+    )
   }
 }
 
 /*
-
 
 <div></div>
 

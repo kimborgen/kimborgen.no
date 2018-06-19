@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
 import './Nav.css';
-import { Link } from 'react-router-dom'
 var Scroll = require('react-scroll');
 var Element = Scroll.Element;
 var scroller = Scroll.scroller;
 
 export default class Nav extends Component {
 
-    aboutMeClick = (e) => {
-        console.log("yes");
+    scrollTo = (e, name) => {
         e.preventDefault();
-        scroller.scrollTo('myScrollToElement', {
+        scroller.scrollTo('scrollTo' + name, {
           duration: 1500,
           delay: 100,
           smooth: true,
@@ -20,12 +18,20 @@ export default class Nav extends Component {
     }
   render() {
     return (
-        <div className="nav">
-			<div className="nav__empty1"></div>
-			<a onClick={(e) => this.aboutMeClick(e)}>About me</a>
-			<Link to="/cv">Curriculum Vitae</Link>
-			<div className="nav__empty2"></div>
-		</div>
+      <div className="nav">
+        {/*<div className="nav__empty1"></div> */}
+        <h1>Kim Aksel Tahuil Borgen</h1>
+        <ul>
+          <li>CEO and Founder of Dexternal</li>
+          <li>Marketing leader Ascend</li>
+          <li>CS Student at NTNU</li>
+          <li>Trondheim Norway</li>
+          <li>22 years old</li>
+        </ul>
+        <a onClick={(e) => this.scrollTo(e, 'About')}>About me</a>
+        <a onClick={(e) => this.scrollTo(e, 'CV')}>CV</a>
+        <a href="emailto:me@kimborgen.com">hi@kimborgen.com</a>
+		  </div>
     );
   }
 }

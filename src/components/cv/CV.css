@@ -64,6 +64,11 @@ a:hover {
 	color: rgb(150, 150, 150);
 }
 
+.cvlink{
+	padding: 2em;
+	padding-left: 0;
+}
+
 .cv > * {
 	max-height: 100%;
 	max-width: 100%;
@@ -255,22 +260,22 @@ a:hover {
 	padding-left: 3vw;
 }
 
-.cv > .experiences__ascend__date {
+.cv > .experiences__dexternal__date {
 	grid-row: 11/13;
 	grid-column: 1/5;
 	text-align: center;
 }
 
-.cv > .experiences__ascend__header {
+.cv > .experiences__dexternal__header {
 	grid-row: 10/11;
 	grid-column: 5/18;
 }
 
-.cv > .experiences__ascend__header > a {
+.cv > .experiences__dexternal__header > a {
 	font-size: calc(1.35vw * var(--vw));
 }
 
-.cv > .experiences__ascend__description {
+.cv > .experiences__dexternal__description {
 	grid-row: 11/13;
 	grid-column: 5/17;
 }
@@ -295,22 +300,22 @@ a:hover {
 }
 */
 
-.cv > .experiences__xcom__date {
+.cv > .experiences__ascend__date {
 	grid-row: 14/17;
 	grid-column: 1/5;
 	text-align: center;
 }
 
-.cv > .experiences__xcom__header {
+.cv > .experiences__ascend__header {
 	grid-row: 13/15;
 	grid-column: 5/17;
 }
 
-.cv > .experiences__xcom__header > a {
+.cv > .experiences__ascend__header > a {
 	font-size: calc(1.35vw * var(--vw));
 }
 
-.cv > .experiences__xcom__description {
+.cv > .experiences__ascend__description {
 	grid-row: 14/17;
 	grid-column: 5/17;
 }
