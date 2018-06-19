@@ -22,6 +22,7 @@
 	margin-top: -20px;
 	width: 100%;
 	color: white;
+	font-size: 14px;
 }
 
 .footer__copyrigth > .fa { /* arrow in copyrigth text */
@@ -43,6 +44,15 @@
     width: 6vw;
     text-align: center;
     text-decoration: none;
+}
+
+@media (max-width: 600px) {
+
+	.fa {
+		width: 13vw;
+		font-size: 5vw;
+		padding:4vw;
+	}
 }
 
 /* Add a hover effect if you want */
