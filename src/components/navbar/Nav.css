@@ -65,7 +65,7 @@
 @media (max-width: 500px) {
 
 	.nav {
-		transform: translate(-4vw, -104vw);
+		transform: translate(-4vw, -101vw);
 	}
 
 	.nav > h1 {
