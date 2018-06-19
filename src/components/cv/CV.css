@@ -6,11 +6,12 @@
 	width: 100%;
 	padding-left: 20vw;
 	padding-right: 20vw;
+	margin-bottom: 20vh;
 }
 
 .cv {
 	width: 100%;
-	/*height: 127.278vw;*/
+	/*height: 127.278vw;*
 	/*height: 107.4792vw; */
 	height: 84.852vw;
 	/*height: 141.42vw;*/
@@ -26,7 +27,7 @@
 	border: 1px solid rgb(232, 229, 229);
 }
 
-@media print {
+@media print, (max-width: 1000px) {
 	:root {
 		--vw: 1.4;
 	}
@@ -103,7 +104,7 @@ a:hover {
 	clip-path: polygon(0 0, 72% 0, 97.5% 100%, 0% 100%);
 }
 
-@media print {
+@media print , (max-width: 1000px) {
 	.cv > .cvPicture{
 		-webkit-clip-path: polygon(0 0, 69% 0, 93.5% 100%, 0% 100%);
 		clip-path: polygon(0 0, 69% 0, 93.5% 100%, 0% 100%);
@@ -113,7 +114,7 @@ a:hover {
 .cv > .intrests {
 	grid-column: 1/7;
 	grid-row:6/7;
-	text-align: center;
+	text-align: left;
 	padding-right: 1.2vw;
 	padding-top: 0.5vh;
 }
@@ -121,26 +122,41 @@ a:hover {
 .cv > .intrests__bullet1 {
 	grid-column: 1/4;
 	grid-row: 7/9;
-	align-self:flex-start;
 	margin-top: -2vh;
 	list-style:square;
+	text-align: left;
 }
 
 .cv > .intrests__bullet1 > li {
 	margin-top: 1vh;
+	
 }
 
 .cv > .intrests__bullet2 > li {
 	margin-top: 1vh;
+	
 }
 
 .cv > .intrests__bullet2 {
 	grid-column: 4/7;
 	grid-row: 7/9;
-	align-self: flex-start;
 	margin-top: -2vh;
 	list-style:square;
-	margin-left: -1.9vw;
+	text-align: left;
+}
+
+@media print, (max-width: 1000px) {
+	.cv > .intrests__bullet1 {
+		line-height: calc(1em * var(--vw));
+	}
+	.cv > .intrests__bullet1 > li {
+		margin-left: -4vh;
+	}
+	
+	.cv > .intrests__bullet2 > li {
+		margin-left: -4vh;
+	}
+
 }
 
 .cv > .divider__top {
@@ -417,12 +433,15 @@ a:hover {
 	margin-bottom: 0;
 }
 
-@media print {
+@media print, (max-width: 1000px){
 	.cv > .projects__list > li:nth-child(2) {
-		margin-top: 1vh;
+		margin-top: 0vh;
 	}
 	.cv > .projects__list > li:nth-child(3) {
-		margin-top: 1vh;
+		margin-top: 0vh;
+	}
+	.cv > .projects__list > li {
+		margin-left: -4vh;
 	}
 }
 
@@ -449,7 +468,7 @@ a:hover {
 	margin-right: calc(1.5vw * var(--vw));
 }
 
-@media print {
+@media print, (max-width: 1000px){
 	.cv > .contact__list {
 		margin-right: calc(3vw * var(--vw));
 	}

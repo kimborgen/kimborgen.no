@@ -5,7 +5,7 @@
 	grid-auto-flow: row;
 	justify-content: center;
 	align-content: space-around;
-	height: 230px;
+	height: 20vh;
 
 }
 
@@ -38,9 +38,9 @@
 
 /* Style all font awesome icons */
 .fa {
-    padding: 2vw;
-    font-size: 3vw;
-    width: 8vw;
+    padding: 1vw;
+    font-size: 2vw;
+    width: 6vw;
     text-align: center;
     text-decoration: none;
 }

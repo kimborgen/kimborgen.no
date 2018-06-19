@@ -27,7 +27,7 @@ class CV extends Component {
           </ul>
           <ul className='intrests__bullet2'>
             <li>Full Stack Web Development</li>
-            <li>Marketing & Design</li>
+            <li>Marketing, Film & Design</li>
           </ul>
 
           <div className='divider__top' />
