@@ -7,9 +7,8 @@
 	justify-items: right;
 	align-items: center;
 	position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translate(-12vw, -16vw);
+	top: 15%;
+    right: 8%;
 }
 
 .nav * {
@@ -25,6 +24,7 @@
 	align-items: center;
 	justify-content: flex-end;
 	height: 2em;
+	font-weight: bold;	
 }
 
 .nav > h1 {
@@ -45,8 +45,8 @@
 @media (max-width: 1100px) {
 
 	.nav {
-		
-		transform: translate(-4vw, -42vw);
+		top: 13%;
+		right: 5%;
 	}
 
 	.nav * {
@@ -65,7 +65,9 @@
 @media (max-width: 500px) {
 
 	.nav {
-		transform: translate(-4vw, -101vw);
+		top: 1.5%;
+		right: 3%;
+		grid-gap: 0;
 	}
 
 	.nav > h1 {
@@ -78,11 +80,11 @@
 
 	.nav > ul > li {
 		font-size: 4.5vw;
-		padding-top: 1vw;
+		padding-top: 0.5vw;
 	}
 
 	.nav > ul > li:first-of-type {
-		margin-top: 5vw;
+		margin-top: 4vw;
 	}
 
 	.nav > h1 {
@@ -90,7 +92,7 @@
 	}
 	
 	.nav > a:first-of-type {
-		margin-top: 0vw;
+		margin-top: -2vw;
 	}
 
 
