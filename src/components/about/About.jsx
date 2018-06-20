@@ -8,8 +8,8 @@ export default class About extends Component {
   render () {
     return (
       <section className='about'>
-        <h1>About me </h1>
         <Element className='element' name='scrollToAbout' />
+        <h1 />
         <img src='blockchain-ai.png' />
 
         <article>

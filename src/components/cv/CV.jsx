@@ -62,7 +62,7 @@ class CV extends Component {
           <p className='experiences__dexternal__description'>CEO and founder of the Norwegian based startup Dexternal. As a CEO it is my task is to manage and lead the company. I am responsible for the creation and composition of our team and motivating them to reach our goals. I am also our main blockchain developer, researching and implementing our smart contracts in Solidity, the programming language of Ethereum. In addition to that, I work on our website (<a href='https://dexternal.com'>dexternal.com</a>), graphical design and social media management.</p>
 
           <p className='experiences__ascend__date'>July 2017 - Present</p>
-          <h3 className='experiences__ascend__header'>Communication Leader at <a href='https://ascendntnu.no' target='newtab'>Ascend NTNU</a></h3>
+          <h3 className='experiences__ascend__header'>Marketing Leader at <a href='https://ascendntnu.no' target='newtab'>Ascend NTNU</a></h3>
           <p className='experiences__ascend__description'>In charge of marketing & communications for the voluntee based student organization <a href='https://ascendntnu.no'>Ascend NTNU</a>. I am in charge of the marketing group of 4 people and I am also a board member. It is my task to bring Ascend NTNU's image to new heights, not only for the students at NTNU but also for businesses and the media. This involves dvelving into the areas of social-media marketing, sponsorships & events, graphic design, film & photo, web-design and brand building.</p>
 
           <p className='experiences__isfit__date'>April 2016 - March 2017</p>
@@ -83,7 +83,7 @@ class CV extends Component {
           <h2 className='contact'>Contact Information</h2>
           <ul className='contact__list'>
             <li><a href='https://github.com/kimborgen' target='newtab'>github.com/kimborgen</a></li>
-            <li><a href='mailto:ceo@kimborgen.no'>hi@kimborgen.com</a></li>
+            <li><a href='mailto:ceo@kimborgen.no'>me@kimborgen.com</a></li>
             <li><a href='http://kimborgen.no' target='newtab'>kimborgen.com</a></li>
             <li>24-05-1996</li>
             <li>48357052</li>

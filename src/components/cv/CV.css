@@ -43,6 +43,12 @@
 	}
 }
 
+@media (max-width: 500px) {
+	.wrapper__cv {
+		margin-top: -40vw;
+	}
+}
+
 p, li, a, div {
 	font-size: calc(0.9vw * var(--vw));
 	line-height: calc(1.5em * var(--vw));

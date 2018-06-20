@@ -22,9 +22,9 @@ export default class Nav extends Component {
         {/*<div className="nav__empty1"></div> */}
         <h1>Kim Aksel Tahuil Borgen</h1>
         <ul>
-          <li>CEO and Founder of Dexternal</li>
+          <li>CEO and Founder Dexternal</li>
           <li>Marketing leader Ascend</li>
-          <li>CS Student at NTNU</li>
+          <li>MSc CS Student NTNU</li>
           <li>Trondheim Norway</li>
           <li>22 years old</li>
         </ul>
