@@ -285,8 +285,8 @@ a:hover {
 }
 
 .cv > .skills__wrapper > img:nth-of-type(6) {
-	-webkit-clip-path: polygon(50% 0%, 50% 50%, 60% 100%, 100% 100%, 0 100%, 0 0);
-	clip-path: polygon(50% 0%, 50% 50%, 60% 100%, 100% 100%, 0 100%, 0 0);
+	-webkit-clip-path: polygon(50% 50%, 100% 0%, 100% 0%, 100% 70%, 100% 100%, 0 100%, 0 0, 50% 0);
+	clip-path: polygon(50% 50%, 100% 15%, 100% 0%, 100% 70%, 100% 100%, 0 100%, 0 0, 50% 0);
 }
 
 

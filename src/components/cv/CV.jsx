@@ -59,11 +59,11 @@ class CV extends Component {
 
           <p className='experiences__dexternal__date'>September 2017 - Present</p>
           <h3 className='experiences__dexternal__header'>CEO and Founder of <a href='https://dexternal.com' target='newtab'>Dexternal</a></h3>
-          <p className='experiences__dexternal__description'>CEO and founder of the Norwegian based startup Dexternal. As a CEO it is my task is to manage and lead the company. I am responsible for the creation and composition of our team and motivating them to reach our goals. I am also our main blockchain developer, researching and implementing our smart contracts in Solidity, the programming language of Ethereum. In addition to that, I work on our website (<a href='https://dexternal.com'>dexternal.com</a>), graphical design and social media management.</p>
+          <p className='experiences__dexternal__description'>CEO, Founder & Smart contract developer at Dexternal, a startup dedicated to developing useful products with blockchain technologies. We are a part of the NTNU Accel Fintech incubator. I am responsible for a team of 5 developers, managing, motivating and leading them towards reaching our goals. I am also researching theoretical solutions, designing decentralized architectures and implementing them as smart contracts on the Ethereum blockchain in Solidity. I addition to that I work on business development, graphical design and social media.</p>
 
-          <p className='experiences__ascend__date'>July 2017 - Present</p>
+          <p className='experiences__ascend__date'>July 2017 - August 2018</p>
           <h3 className='experiences__ascend__header'>Marketing Leader at <a href='https://ascendntnu.no' target='newtab'>Ascend NTNU</a></h3>
-          <p className='experiences__ascend__description'>In charge of marketing & communications for the voluntee based student organization <a href='https://ascendntnu.no'>Ascend NTNU</a>. I am in charge of the marketing group of 4 people and I am also a board member. It is my task to bring Ascend NTNU's image to new heights, not only for the students at NTNU but also for businesses and the media. This involves dvelving into the areas of social-media marketing, sponsorships & events, graphic design, film & photo, web-design and brand building.</p>
+          <p className='experiences__ascend__description'>In charge of marketing & communication at Ascend NTNU, a student organization that compete internationally with autonomous aerial robotics. I was in charge of the marketing group of 4 people and I was also a board member. Our work yielded 40% -> 120% more applicants in our different recruiting phases, compared to the year before. Areas: <i>social-media marketing, sponsorships & events, graphic design, film & photo, web design and brand building.</i> </p>
 
           <p className='experiences__isfit__date'>April 2016 - March 2017</p>
           <h3 className='experiences__isfit__header'>Full Stack Web Developer at <a href='https://isfit.org' target='newtab'>ISfIT 2017</a></h3>
@@ -75,16 +75,16 @@ class CV extends Component {
 
           <h2 className='projects'>Other</h2>
           <ul className='projects__list'>
-            <li><b>Full Stack Web Developer & Sysadmin at <a href='https://xcom18.abakus.no' target='newtab'>XCOM 2018</a> (March 2017 - May 2018)</b> Developer and sysadmin for the excursion commitee at Abakus, a student organization for MScs in CS & CommTech. I did a total redesign, expanded the functionality and worked a lot with data managment. <i>Keywords: CSS, Django & Server</i></li>
+            <li><b>Full Stack Web Developer & Sysadmin at <a href='https://xcom18.abakus.no' target='newtab'>XCOM 2018</a> (March 2017 - May 2018)</b> Developer and sysadmin for the excursion commitee at Abakus, a student organization for MScs in CS & CommTech. I did a total redesign, expanded the functionality and worked with data managment. <i>Keywords: CSS, Django & Server</i></li>
             <li><b><a href='https://stelios.no' target='newtab'>Stelios.no (Spring 2017) - </a></b> Senior developer in a team of 4. Developing an idea from scratch to a finished product on the course <a href='http://www.ntnu.edu/studies/courses/TDT4140#tab=omEmnet' target='newtab'>"Software Engineering"</a>. <i>Keywords: React, Django REST api, CSS, CI, Servers, Travis</i></li>
-            <li><b><a href='http://kimborgen.no' target='newtab'>kimborgen.com - </a></b> Personal webpage, including this CV, made with React and a lot of CSS. Hosted on Firebase</li>
+            <li><b><a href='http://kimborgen.com' target='newtab'>kimborgen.com - </a></b> Personal webpage, including this CV, made with React and a lot of CSS. Hosted on Firebase</li>
           </ul>
 
           <h2 className='contact'>Contact Information</h2>
           <ul className='contact__list'>
             <li><a href='https://github.com/kimborgen' target='newtab'>github.com/kimborgen</a></li>
-            <li><a href='mailto:ceo@kimborgen.no'>me@kimborgen.com</a></li>
-            <li><a href='http://kimborgen.no' target='newtab'>kimborgen.com</a></li>
+            <li><a href='mailto:me@kimborgen.com'>me@kimborgen.com</a></li>
+            <li><a href='http://kimborgen.com' target='newtab'>kimborgen.com</a></li>
             <li>24-05-1996</li>
             <li>48357052</li>
           </ul>
@@ -93,7 +93,6 @@ class CV extends Component {
       </div>
     )
   }
-  // jeg har en fin penis
 }
 
 export default withRouter(CV)
