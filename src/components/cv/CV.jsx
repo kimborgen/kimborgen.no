@@ -58,11 +58,11 @@ class CV extends Component {
           <h2 className='experiences'>Experiences</h2>
 
           <p className='experiences__dexternal__date'>September 2017 - Present</p>
-          <h3 className='experiences__dexternal__header'>CEO and Founder of <a href='https://dexternal.com' target='newtab'>Dexternal</a></h3>
+          <h3 className='experiences__dexternal__header'>CEO & Smart Contract Dev at <a href='https://dexternal.com' target='newtab'>Dexternal</a></h3>
           <p className='experiences__dexternal__description'>CEO, Founder & Smart contract developer at Dexternal, a startup dedicated to developing useful products with blockchain technologies. We are a part of the NTNU Accel Fintech incubator. I am responsible for a team of 5 developers, managing, motivating and leading them towards reaching our goals. I am also researching theoretical solutions, designing decentralized architectures and implementing them as smart contracts on the Ethereum blockchain in Solidity. I addition to that I work on business development, graphical design and social media.</p>
 
           <p className='experiences__ascend__date'>July 2017 - August 2018</p>
-          <h3 className='experiences__ascend__header'>Marketing Leader at <a href='https://ascendntnu.no' target='newtab'>Ascend NTNU</a></h3>
+          <h3 className='experiences__ascend__header'>Head of Marketing & Communication at <a href='https://ascendntnu.no' target='newtab'>Ascend NTNU</a></h3>
           <p className='experiences__ascend__description'>In charge of marketing & communication at Ascend NTNU, a student organization that compete internationally with autonomous aerial robotics. I was in charge of the marketing group of 4 people and I was also a board member. Our work yielded 40% -> 120% more applicants in our different recruiting phases, compared to the year before. Areas: <i>social-media marketing, sponsorships & events, graphic design, film & photo, web design and brand building.</i> </p>
 
           <p className='experiences__isfit__date'>April 2016 - March 2017</p>
