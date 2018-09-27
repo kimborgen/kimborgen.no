@@ -22,15 +22,13 @@ export default class Nav extends Component {
         {/*<div className="nav__empty1"></div> */}
         <h1>Kim Aksel Tahuil Borgen</h1>
         <ul>
-          <li>CEO and Founder Dexternal</li>
-          <li>Marketing leader Ascend</li>
+          <li>CEO, Founder & Smart Contract Dev Dexternal</li>
           <li>MSc CS Student NTNU</li>
           <li>Trondheim Norway</li>
           <li>22 years old</li>
         </ul>
-        <a onClick={(e) => this.scrollTo(e, 'About')}>About me</a>
         <a onClick={(e) => this.scrollTo(e, 'CV')}>CV</a>
-        <a href="emailto:me@kimborgen.com">hi@kimborgen.com</a>
+        <a href="emailto:me@kimborgen.com">me@kimborgen.com</a>
 		  </div>
     );
   }
