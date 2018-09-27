@@ -7,12 +7,6 @@ import CV from '../cv/CV'
 
 export default class Home extends Component {
   render () {
-	  var hello = []
-      /*
-      for (let i = 0; i < 100; i++) {
-          hello.push(<div style={{color:"red"}}>hei</div>)
-      }
-      */
 
     return (
       <div className='home'>
