@@ -3,15 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "express": "^4.15.4",
-    "express-graphql": "^0.6.11",
-    "graphql": "^0.11.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.13",
-    "react-scroll": "^1.5.4",
-    "winston": "^2.3.1"
+    "react-scroll": "^1.5.4"
   },
   "scripts": {
     "start": "node app.js",
@@ -20,7 +16,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "description": "My personal webpage kimborgen.no & kimborgen.com",
+  "description": "My personal webpage kimborgen.com",
   "main": "app.js",
   "devDependencies": {},
   "repository": {
@@ -32,5 +28,5 @@
   "bugs": {
     "url": "https://github.com/kimborgen/kimborgen.no/issues"
   },
-  "homepage": "https://kimborgen.no"
+  "homepage": "https://kimborgen.com"
 }

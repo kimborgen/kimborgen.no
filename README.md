@@ -1,4 +1,3 @@
-My personal webpage 
-kimborgen.no & kimborgen.com
+# My personal webpage - [kimborgen.com](https://kimborgen.com)
 
-react, css, node
+Made with react and a lot of css :)
