@@ -32,13 +32,13 @@ export default class InstaFeed extends Component {
           return (
 
             <div id='instafeed' className="instafeed">
-              <h3>--> Scrool --></h3>
+              <h3>--> Scroll --></h3>
               {
                   this.state.apiResult.data.map((post) => {
                     return <SingleInstaPost data={post} />
                   })
               }
-              <h3>--> Scrool --></h3>
+              <h3>--> Scroll --></h3>
             </div>
           );
       }
