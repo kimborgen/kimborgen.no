@@ -4,6 +4,7 @@ import Nav from '../navbar/Nav'
 import Footer from '../footer/Footer'
 import About from '../about/About'
 import CV from '../cv/CV'
+import InstaFeed from '../instafeed/InstaFeed'
 
 export default class Home extends Component {
   render () {
@@ -15,6 +16,7 @@ export default class Home extends Component {
         </header>
         <div className='content'>
           <About />
+          <InstaFeed />
           <CV />
         </div>
         <Footer />
