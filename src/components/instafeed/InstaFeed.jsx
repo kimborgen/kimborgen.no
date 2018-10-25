@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import './InstaFeed.css';
 import SingleInstaPost from './SingleInstaPost'
+import HorizontalScroll from 'react-scroll-horizontal'
 
 export default class InstaFeed extends Component {
     constructor() {
         super()
         this.state = {
             apiResult: {},
-            embeddedHtml: []
+            embeddedHtml: [],
+            posts: undefined
         }
     }
 
@@ -20,25 +22,28 @@ export default class InstaFeed extends Component {
             this.setState({
                 apiResult: result 
             })
+            this.setState({
+                posts: result.data.map((post) => {
+                    return <SingleInstaPost data={post} />
+                })
+            })
         })
         
     }
 
 
   render() {
-      if (this.state.apiResult.data === undefined) {
+      if (this.state.posts === undefined) {
           return (<p>loading</p>)
       } else {
           return (
-
             <div id='instafeed' className="instafeed">
-              <h3>--> Scroll --></h3>
-              {
-                  this.state.apiResult.data.map((post) => {
-                    return <SingleInstaPost data={post} />
-                  })
-              }
-              <h3>--> Scroll --></h3>
+                <h3>Instagram feed - scroll to show more</h3>
+                <HorizontalScroll>
+                    {this.state.posts.map((post) => {
+                        return post
+                    })}
+                </HorizontalScroll>
             </div>
           );
       }

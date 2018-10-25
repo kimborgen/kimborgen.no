@@ -24,8 +24,12 @@ export default class SingleInstaPost extends Component {
     }
 
     componentDidUpdate() {
-        window.instgrm.Embeds.process();
-        console.log("yes")
+        if (this.state.embedded === undefined) {
+            console.log("embedded state was undefined")
+        } else {
+            window.instgrm.Embeds.process();
+            console.log("Embedded.process was called")
+        }
     }
 
 
