@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './InstaFeed.css';
 import SingleInstaPost from './SingleInstaPost'
 import HorizontalScroll from 'react-scroll-horizontal'
+import Draggable from 'react-draggable'; // The default
 
 export default class InstaFeed extends Component {
     constructor() {
@@ -9,7 +10,8 @@ export default class InstaFeed extends Component {
         this.state = {
             apiResult: {},
             embeddedHtml: [],
-            posts: undefined
+            posts: undefined,
+            deltaX: 0
         }
     }
 
@@ -30,7 +32,16 @@ export default class InstaFeed extends Component {
         })
         
     }
-
+    
+    handleDrag = (e,data) => {
+        console.log("yes")
+        console.log(e)
+        console.log(data)
+        // this.state.animValues + deltaX.
+        this.setState({
+            deltaX: data.deltaX
+        })
+    }
 
   render() {
       if (this.state.posts === undefined) {
@@ -39,11 +50,18 @@ export default class InstaFeed extends Component {
           return (
             <div id='instafeed' className="instafeed">
                 <h3>Instagram feed - scroll to show more</h3>
-                <HorizontalScroll>
-                    {this.state.posts.map((post) => {
-                        return post
-                    })}
-                </HorizontalScroll>
+                <Draggable
+                    axis="x"
+                    onDrag={this.handleDrag}
+                    >
+                    <div>
+                        <HorizontalScroll animValues={this.state.deltaX}>
+                            {this.state.posts.map((post) => {
+                                return post
+                            })}
+                        </HorizontalScroll>
+                    </div>
+                </Draggable>
             </div>
           );
       }
