@@ -5,7 +5,19 @@ var Element = Scroll.Element
 var scroller = Scroll.scroller
 
 export default class About extends Component {
+    constructor(){
+        super()
+        this.show = true
+    }
   render () {
+    if ("geolocation" in navigator) {
+        navigator.geolocation.getCurrentPosition((cb) => { 
+            console.log(cb)
+            if (cb.coords.latitude >= 63 && cb.coords.latitude <=65) {
+                console.log("You are maybe in trondheim ish")
+            }
+        })
+    }
     return (
       <section className='about'>
         <Element className='element' name='scrollToAbout' />
