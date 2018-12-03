@@ -2,12 +2,14 @@
 .instafeed {
     margin-top: 5vh;
     margin-bottom: 5vh;
-    height: 800px;
     justify-items: center;
     width: 100%;
     background-color: rgb(236, 236, 236);
     box-shadow: 1px 1px 5px #555 inset;
+    height: 60vmin;
 }
+
+
 
 .instafeed > h3 {
     text-align: center;
@@ -23,7 +25,8 @@
 }
 
 .react-draggable {
-    height: 700px;
+    height: 100%;
+    border: 1px solid red;
 }
 
 .react-draggable {
@@ -32,18 +35,56 @@
 
 .singleinstapost {
     margin-left: 1vw;
+    background-color:white;
+    padding: 1vw;
 }
 
 .singleinstapost:first-of-type {
     margin-left: 2vw;
 }
 
-@media (max-width: 500px) {
-    .instafeed {
-        margin-bottom: 25vh;
+.singleinstapost__video, .singleinstapost__image {
+    height: 25vmin;
+}
+
+.singleinstapost__more {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0;
+}
+
+.singleinstapost__location, .singleinstapost__likes, .singleinstapost__caption {
+    font-size: 1.2vmin;
+    line-height: 1.8vmin;
+}
+
+@media (max-width: 770px) { 
+    .singleinstapost__location, .singleinstapost__likes, .singleinstapost__caption {
+    font-size: 1.1vmin;
+    line-height: 1.7vmin;
     }
 }
 
+
+@media (max-width: 620px) {
+    
+    .singleinstapost__location, .singleinstapost__likes, .singleinstapost__caption {
+    font-size: 1vmin;
+    line-height: 1.6vmin;
+    }
+}
+
+.singleinstapost__location {
+    grid-column: span 3;
+}
+
+.singleinstapost__likes {
+    justify-self: right;
+}
+
+.singleinstapost__caption {
+    grid-column: span 4;
+}
 
 /*
 @media (max-width: 1750px) {
