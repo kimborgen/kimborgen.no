@@ -1,6 +1,6 @@
 .instafeed {
-    margin-top: -5vh;
-    margin-bottom: 5vh;
+    margin-top: -5vmin;
+    margin-bottom: 5vmin;
     justify-items: center;
     width: 100%;
     background-color: rgb(236, 236, 236);
@@ -13,18 +13,23 @@
 .instafeed > h3 {
     text-align: center;
     padding-top: 3.5vmin;
-    padding-bottom: 3min;
 }
 
 
 .scroll-horizontal > div {
-    padding-top: 5vh;
-    padding-bottom: 7vh;
+    padding-top: 5vmin;
+    padding-bottom: 7vmin;
 }
 
 .react-draggable {
     height: 100%;
-    margin-top: -4vmin;
+    margin-top: -3vmin;
+}
+
+@media (max-width: 530px) {
+    .react-draggable {
+        margin-top: -4vmin;
+    }
 }
 
 .react-draggable {
