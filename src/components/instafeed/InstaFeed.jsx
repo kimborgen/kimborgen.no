@@ -36,18 +36,18 @@ export default class InstaFeed extends Component {
     handleDrag = (e,data) => {
         // this.state.animValues + deltaX.
         this.setState({
-            deltaX: data.deltaX
+            deltaX: data.deltaX * 2
         })
     }
 
   render() {
-      console.log(this.state.deltaX)
       if (this.state.posts === undefined) {
           return (<p>loading</p>)
       } else {
           return (
             <div id='instafeed' className="instafeed">
-                <h3>Instagram feed - scroll to show more</h3>
+                <h3>Instagram feed - scroll or drag to show more</h3>
+                
                 <Draggable
                     axis="x"
                     onDrag={this.handleDrag}

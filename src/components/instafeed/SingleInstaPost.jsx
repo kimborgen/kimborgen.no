@@ -21,6 +21,7 @@ export default class SingleInstaPost extends Component {
     if (this.props.data.type === "video") {
       return <video 
         className="singleinstapost__video"
+        draggable="false"
         controls 
         playsInLine 
         autoPlay 
@@ -32,6 +33,7 @@ export default class SingleInstaPost extends Component {
     } else {
       return <img
         className="singleinstapost__image"
+        draggable="false"
         src={this.props.data.images.standard_resolution.url}
       />
     }
@@ -39,7 +41,7 @@ export default class SingleInstaPost extends Component {
 
   render() {
     return (
-      <a href={this.props.data.link} className="singleinstapost">
+      <a href={this.props.data.link} draggable="false" className="singleinstapost">
         {this.imageOrVideo()}
         <div className="singleinstapost__more">
           <p className="singleinstapost__location">
