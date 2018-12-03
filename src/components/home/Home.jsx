@@ -15,7 +15,7 @@ export default class Home extends Component {
           <Nav />
         </header>
         <div className='content'>
-          <About />
+          { /* <About /> */}
           <InstaFeed />
           <CV />
         </div>
