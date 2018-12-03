@@ -39,7 +39,7 @@ export default class SingleInstaPost extends Component {
 
   render() {
     return (
-      <a href="{this.props.data.link}" className="singleinstapost">
+      <a href={this.props.data.link} className="singleinstapost">
         {this.imageOrVideo()}
         <div className="singleinstapost__more">
           <p className="singleinstapost__location">
@@ -61,7 +61,7 @@ export default class SingleInstaPost extends Component {
           <p className="singleinstapost__caption">
             {this.props.data.caption.text}
           </p>
-        </div>  
+       </div>  
       </a>
     );
   }
