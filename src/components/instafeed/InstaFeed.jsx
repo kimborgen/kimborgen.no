@@ -34,9 +34,6 @@ export default class InstaFeed extends Component {
     }
     
     handleDrag = (e,data) => {
-        console.log("yes")
-        console.log(e)
-        console.log(data)
         // this.state.animValues + deltaX.
         this.setState({
             deltaX: data.deltaX
@@ -44,6 +41,7 @@ export default class InstaFeed extends Component {
     }
 
   render() {
+      console.log(this.state.deltaX)
       if (this.state.posts === undefined) {
           return (<p>loading</p>)
       } else {
