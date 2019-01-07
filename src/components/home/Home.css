@@ -5,23 +5,6 @@
 	background-color: white;
 }
 
-.home__header {
-	width: 100%;
-	background-image: url("header.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: bottom;
-	height: 140vh;
-	margin-top:-25vh;
-}
-
-
-.home__header > img {
-	top: -500px;
-	width: 100%;
-	max-width: 100%;
-}
-
 .content {
 	flex: 1;
 	background-color:white;
