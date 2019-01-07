@@ -1,0 +1,39 @@
+.header {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: left;
+    align-content: top;
+	background-color: #ce3300;
+    animation: colorchange 50s;
+}
+
+@keyframes colorchange
+    {
+      0%   {background: #ff4d00;}
+      50%  {background: #ff7c01;}
+      100% {background: #ff4d00;}
+    }
+
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: #ff4d00;}
+      50%  {background: #ff7c01;}
+      100% {background: #ff4d00;}
+    }
+
+.header__typist {
+    padding-left: 5vw;
+    color: white;
+}
+
+.header__typist > p {
+    font-size: 3vmax;
+}
+
+@media (max-width: 1000px) {
+
+    .header__typist > p > p {
+        font-size:1.5vmax;
+    }
+}
