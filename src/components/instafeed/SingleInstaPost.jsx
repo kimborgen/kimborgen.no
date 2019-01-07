@@ -61,7 +61,7 @@ export default class SingleInstaPost extends Component {
             {this.props.data.likes.count}
           </p>
           <p className="singleinstapost__caption">
-            {this.props.data.caption.text}
+            {this.props.data.caption.text.replace(/(?:^|\s)\#(\w+)\b/g, "").replace(/(?:^|\s)\@(\w+)\b/g, "")}
           </p>
        </div>  
       </a>
