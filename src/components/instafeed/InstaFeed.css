@@ -72,15 +72,15 @@
 @media (max-width: 740px) {
     
     .singleinstapost__location, .singleinstapost__likes, .singleinstapost__caption {
-    font-size: 0.8vmin;
-    line-height: 1.4vmin;
+    font-size: 1.1vmin;
+    line-height: 1.6vmin;
     }
 }
 
 @media (max-width: 550px) {
     
     .singleinstapost__location, .singleinstapost__likes, .singleinstapost__caption {
-    font-size: 0.7vmin;
+    font-size: 0.9vmin;
     line-height: 1.3vmin;
     }
 }
