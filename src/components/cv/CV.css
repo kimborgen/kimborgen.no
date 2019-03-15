@@ -153,6 +153,7 @@ a:hover {
 	text-align: left;
 }
 
+/*
 @media print, (max-width: 1100px) {
 	.cv > .intrests__bullet1 {
 		line-height: calc(0.5em * var(--vw));
@@ -166,7 +167,6 @@ a:hover {
 		margin-left: -1vh;
 		margin-top: 0.5vh;		
 	}
-
 }
 
 @media print, (max-width: 800px) {
@@ -183,6 +183,17 @@ a:hover {
 		margin-top: 0.5vh;		
 	}
 
+}
+*/
+
+@media print {
+    .cv > .intrests__bullet1 > li {
+        margin-top: 0.7vh;
+    }
+
+    .cv > .intrests__bullet2 > li {
+        margin-top: 0.7vh;
+    }
 }
 
 .cv > .divider__top {
@@ -458,6 +469,12 @@ a:hover {
 	margin-top: 2.5vh;
 	text-align: justify;
 	padding-right: calc(2vw * var(--vw));
+}
+
+@media print {
+    .cv > .projects__list > li {
+        margin-top: 1.75vh;
+    }
 }
 
 .cv > .projects__list > li:first-of-type {
