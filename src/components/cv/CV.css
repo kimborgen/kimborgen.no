@@ -322,6 +322,21 @@ a:hover {
 	text-align: center;
 }
 
+.cv > .experiences__text {
+    padding-top: 4vh;
+    grid-row: 9/19;
+    grid-column: 5/17;
+}
+
+.cv > .experiences__text > h3 {
+    padding-top: 1.8vh;
+    margin-bottom: -1vh;
+}
+
+.cv > .experiences__text > h3 > a { 
+	font-size: calc(1.35vw * var(--vw));
+}
+
 .cv > .experiences__dexternal__header {
     
     padding-top: 2vh;
@@ -361,6 +376,7 @@ a:hover {
 
 .cv > .experiences__ascend__date {
 	grid-row: 14/17;
+    margin-top: 0vh;
 	grid-column: 1/5;
 	text-align: center;
 }
@@ -393,6 +409,7 @@ a:hover {
 */
 
 .cv > .experiences__isfit__date {
+    margin-top: 2vh;
 	grid-row: 17/19;
 	grid-column: 1/5;
 	text-align: center;

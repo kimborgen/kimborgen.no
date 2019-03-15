@@ -57,16 +57,22 @@ class CV extends Component {
           <h2 className='experiences'>Experiences</h2>
 
           <p className='experiences__dexternal__date'>June 2017 - Present</p>
-          <h3 className='experiences__dexternal__header'>CEO & Smart Contract Dev at <a href='https://dexternal.com' target='newtab'>Dexternal</a></h3>
-          <p className='experiences__dexternal__description'>CEO, Founder & Smart contract developer at Dexternal, a startup dedicated to connect blockchain assets to the regulated environment of the real world through a fully decentralized crypto asset exchange compliant with Norwegian and international law. As a CEO I work with business development, strategy, law, funding, and project planning and management. I am responsible for a team of five developers, managing, motivating and leading them towards reaching our goals. I am also researching theoretical solutions, designing decentralized architectures and implementing them as smart contracts on the Ethereum blockchain in Solidity.</p>
 
           <p className='experiences__ascend__date'>July 2017 - August 2018</p>
-          <h3 className='experiences__ascend__header'>Head of Marketing & Communication at <a href='https://ascendntnu.no' target='newtab'>Ascend NTNU</a></h3>
-          <p className='experiences__ascend__description'>In charge of marketing and communication at Ascend NTNU, a student organization that compete internationally with autonomous aerial robotics. I was in charge of the marketing group of 4 people and I was also a board member. Our work yielded up to 120% more applicants in our different recruiting phases, compared to the year before.</p>
 
           <p className='experiences__isfit__date'>April 2016 - March 2017</p>
-          <h3 className='experiences__isfit__header'>Full Stack Web Developer at <a href='https://isfit.org' target='newtab'>ISFiT 2017</a></h3>
-          <p className='experiences__isfit__description'>I was a member of the IT group at the <a href='https://isfit.org' target='newtab'>ISFiT festival in 2017</a>, working with a team of 10 people. My main area of responsibility was developing our internal site with another developer. This internal site served close to 500 people. </p>
+
+          <div className='experiences__text'>
+
+            <h3 className='experiences__dexternal__header'>CEO & Smart Contract Dev at <a href='https://dexternal.com' target='newtab'>Dexternal</a></h3>
+            <p className='experiences__dexternal__description'>CEO, Founder & Smart contract developer at Dexternal, a startup dedicated to connect blockchain assets to the regulated environment of the real world through a fully decentralized crypto asset exchange compliant with Norwegian and international law. As a CEO I work with business development, strategy, law, funding, and project planning and management. I am responsible for a team of five developers, managing, motivating and leading them towards reaching our goals. I am also researching theoretical solutions, designing decentralized architectures and implementing them as smart contracts on the Ethereum blockchain in Solidity.</p>
+
+            <h3 className='experiences__ascend__header'>Head of Marketing & Communication at <a href='https://ascendntnu.no' target='newtab'>Ascend NTNU</a></h3>
+            <p className='experiences__ascend__description'>In charge of marketing and communication at Ascend NTNU, a student organization that compete internationally with autonomous aerial robotics. I was in charge of the marketing group of 4 people and I was also a board member. Our work yielded up to 120% more applicants in our different recruiting phases, compared to the year before.</p>
+
+            <h3 className='experiences__isfit__header'>Full Stack Web Developer at <a href='https://isfit.org' target='newtab'>ISFiT 2017</a></h3>
+            <p className='experiences__isfit__description'>I was a member of the IT group at the <a href='https://isfit.org' target='newtab'>ISFiT festival in 2017</a>, working with a team of 10 people. My main area of responsibility was developing our internal site with another developer. This internal site served close to 500 people. </p>
+          </div>
 
           <div className='divider__experiences__bottom'><div /></div>
 
