@@ -25,7 +25,7 @@ export default class InstaFeed extends Component {
               type: "image",
               location: { name: "Trondheim" },
               likes: { count: 1337},
-              caption: { text: "Follow me on instagram by clicking me! Username ==>   @kimborgen   <=="},
+              caption: { text: 'Follow me on instagram by clicking me! Username: @kimborgen'},
               link: "https://www.instagram.com/accounts/login/?next=%2Fkimborgen%2F&source=follow",
               images: { standard_resolution: { 
                 url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/250px-Instagram_logo_2016.svg.png"

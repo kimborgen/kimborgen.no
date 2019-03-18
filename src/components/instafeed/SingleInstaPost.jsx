@@ -15,6 +15,7 @@ export default class SingleInstaPost extends Component {
 
   componentDidMount() {
     console.log(this.props.data)
+    console.log(this.props.data.caption.text.split(' '))
   }
 
   imageOrVideo = () => {
@@ -61,7 +62,15 @@ export default class SingleInstaPost extends Component {
             {this.props.data.likes.count}
           </p>
           <p className="singleinstapost__caption">
-            {this.props.data.caption.text.replace(/(?:^|\s)\#(\w+)\b/g, "").replace(/(?:^|\s)\@(\w+)\b/g, "")}
+            {this.props.data.caption.text.split(/(?:\n| )+/).filter((word) => { 
+            if (word[0] === '.') {
+              return false  
+            } else if (word[0] != "#") {
+              return true
+            } else {
+              return false
+            }
+            }).join(' ')}
           </p>
        </div>  
       </a>
