@@ -9,10 +9,10 @@ var Element = Scroll.Element
 class BusinessCV extends Component {
   render () {
     return (
-      <div className='wrapper__cv'>
+      <div className='business_wrapper__cv'>
         <Element className='element' name='scrollToCV' />
         { this.props.location.pathname.toLowerCase() === '/cv' || this.props.location.pathname.toLowerCase() === '/businesscv' ? undefined : <div className="cvlinks">Click for a printable CV page<Link to='/cv' className='cvlink'>Standard tech CV</Link><Link to='/businesscv'>Business CV</Link></div> }
-        <section className='cv'>
+        <section className='business_cv'>
           <h1>Kim Aksel Tahuil Borgen</h1>
 
           <div className='cvPicture' />
