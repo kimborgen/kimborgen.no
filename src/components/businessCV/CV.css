@@ -2,14 +2,6 @@
 	--vw: 1;
 }
 
-.cvlinks {
-    margin-bottom: 4vh; 
-}
-
-.cvlinks > a {
-    margin-left:4vw;
-}
-
 .wrapper__cv {
 	width: 100%;
 	padding-left: 20vw;
@@ -282,33 +274,33 @@ a:hover {
 .cv > .skills__wrapper > img:nth-of-type(1) {
     /* the first argument is the clock position
      * change the second argument of the second argument 0 -> 100 if going later than 30 past 5 */
-    -webkit-clip-path: polygon(75% 0, 100% 0, 100% 100%, 0 100%, 0 0, 50% 0, 50% 50%);
-    clip-path:         polygon(75% 0, 100% 0, 100% 100%, 0 100%, 0 0, 50% 0, 50% 50%);
+    -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%, 0 0, 50% 0, 50% 50%);
+    clip-path:         polygon(100% 0, 100% 0, 100% 100%, 0 100%, 0 0, 50% 0, 50% 50%);
 }
 
 .cv > .skills__wrapper > img:nth-of-type(2) { 
-    -webkit-clip-path: polygon(100% 0%, 100% 0, 100% 100%, 0 100%, 0 0, 50% 0, 50% 50%);
-    clip-path:         polygon(100% 0%, 100% 0, 100% 100%, 0 100%, 0 0, 50% 0, 50% 50%);
+    -webkit-clip-path: polygon(80% 0%, 100% 0, 100% 100%, 0 100%, 0 0, 50% 0, 50% 50%);
+    clip-path:         polygon(80% 0%, 100% 0, 100% 100%, 0 100%, 0 0, 50% 0, 50% 50%);
 }
 
 .cv > .skills__wrapper > img:nth-of-type(3) {
-    -webkit-clip-path: polygon(100% 15%, 100% 0, 100% 100%, 0 100%, 0 0, 50% 0, 50% 50%);
-    clip-path:         polygon(100% 15%, 100% 0, 100% 100%, 0 100%, 0 0, 50% 0, 50% 50%);
+    -webkit-clip-path: polygon(90% 0%, 100% 0, 100% 100%, 0 100%, 0 0, 50% 0, 50% 50%);
+    clip-path:         polygon(90% 0%, 100% 0, 100% 100%, 0 100%, 0 0, 50% 0, 50% 50%);
 }
 
 .cv > .skills__wrapper > img:nth-of-type(4) {
-    -webkit-clip-path: polygon(100% 30%, 100% 0%, 100% 100%, 0 100%, 0 0, 50% 0, 50% 50%);
-    clip-path:         polygon(100% 30%, 100% 0%, 100% 100%, 0 100%, 0 0, 50% 0, 50% 50%);
+    -webkit-clip-path: polygon(100% 50%, 100% 0%, 100% 100%, 0 100%, 0 0, 50% 0, 50% 50%);
+    clip-path:         polygon(100% 50%, 100% 0%, 100% 100%, 0 100%, 0 0, 50% 0, 50% 50%);
 }
 
 .cv > .skills__wrapper > img:nth-of-type(5) {
-    -webkit-clip-path: polygon(100% 70%, 100% 0, 100% 100%, 0 100%, 0 0, 50% 0, 50% 50%);
-    clip-path:         polygon(100% 70%, 100% 0, 100% 100%, 0 100%, 0 0, 50% 0, 50% 50%);
+    -webkit-clip-path: polygon(100% 10%, 100% 0, 100% 100%, 0 100%, 0 0, 50% 0, 50% 50%);
+    clip-path:         polygon(100% 10%, 100% 0, 100% 100%, 0 100%, 0 0, 50% 0, 50% 50%);
 }
 
 .cv > .skills__wrapper > img:nth-of-type(6) {
-    -webkit-clip-path: polygon(90% 0, 100% 0, 100% 100%, 0 100%, 0 0, 50% 0, 50% 50%);
-    clip-path:         polygon(90% 0, 100% 0, 100% 100%, 0 100%, 0 0, 50% 0, 50% 50%);
+    -webkit-clip-path: polygon(75% 0, 100% 0, 100% 100%, 0 100%, 0 0, 50% 0, 50% 50%);
+    clip-path:         polygon(75% 0, 100% 0, 100% 100%, 0 100%, 0 0, 50% 0, 50% 50%);
 }
 
 
@@ -325,19 +317,30 @@ a:hover {
 
 .cv > .experiences__dexternal__date {
     padding-top: 2vh;
-	grid-row: 10/13;
+	grid-row: 10/15;
 	grid-column: 1/5;
 	text-align: center;
 }
 
+@media print {
+    .cv > .experiences__dexternal__date {
+        padding-top:1.5vh;
+    }
+
+    .cv > .experiences__ascend__date {
+        padding-top:1.8vh;
+    }
+}
+
 .cv > .experiences__text {
-    padding-top: 4vh;
+    padding-top: 0vh;
+    margin-top: 0vh;
     grid-row: 9/19;
     grid-column: 5/17;
 }
 
 .cv > .experiences__text > h3 {
-    padding-top: 1.8vh;
+    padding-top: 5vh;
     margin-bottom: -1vh;
 }
 
@@ -383,7 +386,7 @@ a:hover {
 */
 
 .cv > .experiences__ascend__date {
-	grid-row: 14/17;
+	grid-row: 14/20;
     margin-top: 0vh;
 	grid-column: 1/5;
 	text-align: center;
@@ -491,14 +494,14 @@ a:hover {
 .cv > .projects__list > li {
 	font-size: calc(0.8vw * var(--vw));
 	line-height: 1.5em;
-	margin-top: 2.5vh;
+	margin-top: 1vh;
 	text-align: justify;
 	padding-right: calc(2vw * var(--vw));
 }
 
 @media print {
     .cv > .projects__list > li {
-        margin-top: 1.75vh;
+        margin-top: 0.75vh;
     }
 }
 
@@ -556,6 +559,7 @@ a:hover {
 .cv > .contact__list > li > img {
     width: 0.85em;
     margin-left: 1.2em;
+    filter: grayscale(100%);
 }
 
 .material-icons {
