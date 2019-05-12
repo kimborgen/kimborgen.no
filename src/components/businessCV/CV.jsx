@@ -34,22 +34,22 @@ class BusinessCV extends Component {
             <div className='education__degree'><b>MSc in Computer Science & Engineering, 2015-2020, specializing in Databases & Search</b></div>
             <a href='www.ntnu.edu'>At the Norwegian University of Science and Technology (NTNU) in Trondheim </a>
           </div>
-
-          <h2 className='skills'>Skills</h2>
+          <h2 className='skills'>.</h2>
+          <h2 className='skills_real'>Skills</h2>
           <div className='skills__wrapper'>
-            <img src='skills_circle.svg' />
-            <img src='skills_circle.svg' />
-            <img src='skills_circle.svg' />
-            <img src='skills_circle.svg' />
-            <img src='skills_circle.svg' />
-            <img src='skills_circle.svg' />
+            <p>Leadership and managment</p>
+            <p>Scientific research</p>
+            <p>Project planning and scrum</p>
+            <p>International financial law</p>
+            <p>Video and photography</p>
+            <p>Automation and big data</p>
             <div /><div />
-            <p>Business development and leadership</p>
-            <p>Analytical reasoning and research </p>
-            <p>Project planning, scrum and team managment</p>
-            <p>Video production, photography and graphical design</p>
-            <p>Automation, software architecture and development</p>
-            <p>Blockchain applications and international financial law</p>
+            <p>Business development</p>
+            <p>Analytical reasoning</p>
+            <p>Teamwork and facilitating</p>
+            <p>Graphical design</p>
+            <p>Software development</p>
+            <p>Blockchain applications</p>
           </div>
 
           <h2 className='experiences'>Experiences</h2>
