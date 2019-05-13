@@ -37,21 +37,22 @@ class CV extends Component {
             <a href='www.ntnu.edu'>At the Norwegian University of Science and Technology (NTNU) in Trondheim </a>
           </div>
 
-          <h2 className='skills'>Skills</h2>
+          <h2 className='skills'>.</h2>
+          <h2 className='skills_real'>Skills</h2>
           <div className='skills__wrapper'>
-            <img src='skills_circle.svg' />
-            <img src='skills_circle.svg' />
-            <img src='skills_circle.svg' />
-            <img src='skills_circle.svg' />
-            <img src='skills_circle.svg' />
-            <img src='skills_circle.svg' />
+            <p>AI and ML development</p>
+            <p>Big data and data processing</p>
+            <p>Blockchain and applications</p>
+            <p>Software architechure</p>
+            <p>Full stack web development</p>
+            <p>European financial law</p>
             <div /><div />
-            <p>Frontend & graphical enviroments</p>
-            <p>Backend, Web Server & Software Architecture</p>
-            <p>Python, JavaScript, Go, C++ & Java</p>
-            <p>Project & Team Managment</p>
-            <p>Video production & graphical design</p>
-            <p>Smart Contracts and Decentralized Architecture</p>
+            <p>Leadership and managment</p>
+            <p>Scientific research</p>
+            <p>Project planning and scrum</p>
+            <p>Python, Go, JavaScript, ...</p>
+            <p>C++, Java, Unix, React, Numpy,  ...</p> 
+            <p>Solidity, Keras, QT, and Django</p>
           </div>
 
           <h2 className='experiences'>Experiences</h2>

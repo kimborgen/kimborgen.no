@@ -1,0 +1,16 @@
+
+          <div className='skills__wrapper'>
+            <img src='skills_circle.svg' />
+            <img src='skills_circle.svg' />
+            <img src='skills_circle.svg' />
+            <img src='skills_circle.svg' />
+            <img src='skills_circle.svg' />
+            <img src='skills_circle.svg' />
+            <div /><div />
+            <p>Frontend & graphical enviroments</p>
+            <p>Backend, Web Server & Software Architecture</p>
+            <p>Python, JavaScript, Go, C++ & Java</p>
+            <p>Project & Team Managment</p>
+            <p>Video production & graphical design</p>
+            <p>Smart Contracts and Decentralized Architecture</p>
+          </div>
