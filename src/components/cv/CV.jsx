@@ -61,7 +61,7 @@ class CV extends Component {
 
           <p className='experiences__ascend__date'>June 2019 - August 2019</p>
 
-          <p className='experiences__isfit__date'>April 2016 - March 2017</p>
+          <p className='experiences__isfit__date'>March 2017 - August 2018</p>
 
           <div className='experiences__text'>
 
