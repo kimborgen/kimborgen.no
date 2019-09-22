@@ -145,12 +145,13 @@ a:hover {
 
 .cv > .intrests__bullet1 > li {
 	margin-top: 1vh;
+    font-size: 0.9em;
 	
 }
 
 .cv > .intrests__bullet2 > li {
 	margin-top: 1vh;
-	
+    font-size: 0.9em;
 }
 
 .cv > .intrests__bullet2 {
@@ -294,8 +295,8 @@ a:hover {
 .cv > .skills__wrapper > p {
 	height: 100%;
 	font-size: calc(0.6vw * var(--vw));
-	padding-left: 8%;
-	padding-right: 8%;
+	padding-left: 2%;
+	padding-right: 2%;
 	grid-row: span 2;
 	grid-column: span 2;
 	text-align: center;
@@ -347,11 +348,18 @@ a:hover {
 }
 
 .cv > .experiences__dexternal__date {
-    padding-top: 2vh;
+    padding-top: 1.5vh;
 	grid-row: 10/13;
 	grid-column: 1/5;
 	text-align: center;
 }
+
+@media print {
+    .cv > .experiences__dexternal__date {
+        padding-top: 3vh;
+    }
+}
+
 
 .cv > .experiences__text {
     padding-top: 4vh;
@@ -406,10 +414,16 @@ a:hover {
 */
 
 .cv > .experiences__ascend__date {
-	grid-row: 14/17;
-    margin-top: 0vh;
+	grid-row: 13/17;
+    margin-top: 0.3vh;
 	grid-column: 1/5;
 	text-align: center;
+}
+
+@media print {
+    .cv > .experiences__ascend__date {
+        margin-top: 1.6vh;
+    }
 }
 
 .cv > .experiences__ascend__header {
@@ -440,10 +454,17 @@ a:hover {
 */
 
 .cv > .experiences__isfit__date {
-    margin-top: 2vh;
+    margin-top: -0.5vh;
 	grid-row: 17/19;
 	grid-column: 1/5;
 	text-align: center;
+}
+
+
+@media print {
+    .cv > .experiences__isfit__date {
+        margin-top: 0vh;
+    }
 }
 
 .cv > .experiences__isfit__header {
@@ -514,14 +535,14 @@ a:hover {
 .cv > .projects__list > li {
 	font-size: calc(0.8vw * var(--vw));
 	line-height: 1.5em;
-	margin-top: 2.5vh;
+	margin-top: 1.5vh;
 	text-align: justify;
 	padding-right: calc(2vw * var(--vw));
 }
 
 @media print {
     .cv > .projects__list > li {
-        margin-top: 1.75vh;
+        margin-top: 1vh;
     }
 }
 

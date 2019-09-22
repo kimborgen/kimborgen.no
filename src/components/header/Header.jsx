@@ -6,7 +6,7 @@ import Typist from 'react-typist'
 export default class Header extends Component {
   constructor() {
     super()
-    this.speed = 0.5
+    this.speed = 1
 
   }
   
