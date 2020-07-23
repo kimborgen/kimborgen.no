@@ -13,7 +13,7 @@ class CV extends Component {
     return (
       <div className='wrapper__cv'>
         <Element className='element' name='scrollToCV' />
-        { this.props.location.pathname === '/cv' ? undefined : <Link to='/cv' className='cvlink'>Click here for a printable CV page</Link> }
+        { this.props.location.pathname.toLowerCase() === '/cv' || this.props.location.pathname.toLowerCase() === '/businesscv' ? undefined : <div className="cvlinks"><Link to='/cv'>Click for printable CV</Link></div> }
         <section className='cv'>
           <h1>Kim Aksel Tahuil Borgen</h1>
 
@@ -21,12 +21,12 @@ class CV extends Component {
 
           <h2 className='intrests'>Main areas of interest</h2>
           <ul className='intrests__bullet1'>
-            <li>Blockchain, smart contracts & decentralized apps</li>
-            <li>AI & big data</li>
+            <li>Blockchain & Smart Contracts</li>
+            <li>Artificial Intelligence & Big Data</li>
           </ul>
           <ul className='intrests__bullet2'>
-            <li>Business development & project managment</li>
-            <li>Marketing & film</li>
+            <li>Startup & Entrepreneurship</li>
+            <li>Marketing, Film and Photo</li>
           </ul>
 
           <div className='divider__top' />
@@ -37,41 +37,42 @@ class CV extends Component {
             <a href='www.ntnu.edu'>At the Norwegian University of Science and Technology (NTNU) in Trondheim </a>
           </div>
 
-          <h2 className='skills'>Skills</h2>
+          <h2 className='skills'>.</h2>
+          <h2 className='skills_real'>Skills</h2>
           <div className='skills__wrapper'>
-            <img src='skills_circle.svg' />
-            <img src='skills_circle.svg' />
-            <img src='skills_circle.svg' />
-            <img src='skills_circle.svg' />
-            <img src='skills_circle.svg' />
-            <img src='skills_circle.svg' />
+            <p>Blockchain app development</p>
+            <p>Blockchain scalability</p>
+            <p>AI and ML development</p>
+            <p>Big data and data processing</p>
+            <p>Software architechure</p>
+            <p>Full stack web development</p>
             <div /><div />
-            <p>Frontend & graphical enviroments</p>
-            <p>Backend, Web Server & Software Architecture</p>
-            <p>Python, JavaScript, Go, C++ & Java</p>
-            <p>Project & Team Managment</p>
-            <p>Video production & graphical design</p>
-            <p>Smart Contracts and Decentralized Architecture</p>
+            <p>Leadership and managment</p>
+            <p>Scientific research and writing</p>
+            <p>Project planning and scrum</p>
+            <p>Python, Go, JS, CSS, C++, Java ...</p>
+            <p>Numpy, Pandas, Pytorch, Unix ...</p> 
+            <p>Solidity, React, QT, and Django</p>
           </div>
 
           <h2 className='experiences'>Experiences</h2>
 
-          <p className='experiences__dexternal__date'>June 2017 - Present</p>
+          <p className='experiences__dexternal__date'>June 2017 - February 2020</p>
 
-          <p className='experiences__ascend__date'>July 2017 - August 2018</p>
+          <p className='experiences__ascend__date'>June 2019 - August 2019</p>
 
-          <p className='experiences__isfit__date'>April 2016 - March 2017</p>
+          <p className='experiences__isfit__date'>March 2017 - August 2018</p>
 
           <div className='experiences__text'>
 
-            <h3 className='experiences__dexternal__header'>CEO & Smart Contract Dev at <a href='https://dexternal.com' target='newtab'>Dexternal</a></h3>
-            <p className='experiences__dexternal__description'>CEO, Founder & Smart contract developer at Dexternal, a startup dedicated to connecting blockchain assets to the regulated environment of the real world through a fully decentralized crypto asset exchange compliant with Norwegian and international law. As a CEO I work with business development, strategy, law, funding, and project planning and management. I am responsible for a team of five developers, managing, motivating and leading them towards reaching our goals. I am also researching theoretical solutions, designing decentralized architectures and implementing them as smart contracts on the Ethereum blockchain in Solidity.</p>
+            <h3 className='experiences__dexternal__header'>Founder and CEO at <a href='https://dexternal.com' target='newtab'>Dexternal</a></h3>
+            <p className='experiences__dexternal__description'>Dexternal was a blockchain startup dedicated to connect blockchain assets to the regulated environment of the real world through a fully decentralized crypto asset exchange compliant with Norwegian and international law. As a CEO I worked with business development, strategy, law, funding, project planning and management of our development team. I was also researching theoretical solutions, designing decentralized architectures and implementing them as smart contracts on the Ethereum blockchain in Solidity.</p>
 
-            <h3 className='experiences__ascend__header'>Head of Marketing & Communication at <a href='https://ascendntnu.no' target='newtab'>Ascend NTNU</a></h3>
-            <p className='experiences__ascend__description'>In charge of marketing and communication at Ascend NTNU, a student organization that compete internationally with autonomous aerial robotics. I was in charge of the marketing group of 4 people and I was also a board member. Our work yielded up to 120% more applicants in our different recruiting phases, compared to the year before.</p>
+            <h3 className='experiences__ascend__header'>Machine Learning Developer (Summer Intern) at <a href="https://infrontfinance.com">Infront</a></h3>
+            <p className='experiences__ascend__description'>Developed on a machine learning pipeline to automate tedious human tasks using the deep learning framework PyTorch, and various other data science libraries. Also developed web tools for data analysis and labeling.</p>
 
-            <h3 className='experiences__isfit__header'>Full Stack Web Developer at <a href='https://isfit.org' target='newtab'>ISFiT 2017</a></h3>
-            <p className='experiences__isfit__description'>I was a member of the IT group at the <a href='https://isfit.org' target='newtab'>ISFiT festival in 2017</a>, working with a team of 10 people. My main area of responsibility was developing our internal site with another developer. This internal site served close to 500 people. </p>
+            <h3 className='experiences__isfit__header'>Head of Marketing & Communication (Volunteer) at <a href='https://ascendntnu.no' target='newtab'>Ascend NTNU</a></h3>
+            <p className='experiences__isfit__description'>In charge of marketing and communication at Ascend NTNU, a student organization that compete internationally with autonomous aerial robotics. I was in charge of the marketing group of 4 people and I was also a board member. Our work yielded up to 120% more applicants in our different recruiting phases, compared to the year before.</p>
           </div>
 
           <div className='divider__experiences__bottom'><div /></div>
@@ -80,9 +81,9 @@ class CV extends Component {
 
           <h2 className='projects'>Other</h2>
           <ul className='projects__list'>
-            <li>Technical group member - Film & Editing - Abakus Revue 2019</li>
-            <li>Scene group member - Abakus Revue 2018</li>
-            <li>Full Stack Web Developer & Sysadmin <br/>&emsp; at <a href='https://xcom19.abakus.no' target='newtab'>XCOM 2018</a>  (March 2017 - May 2018)</li>
+            <li>Scene builder and technical worker with Film & Editing (Volunteer) <br />&emsp; at the Abakus Revue 2018, 2019 and 2020</li>
+            <li>Full Stack Web Developer & Sysadmin (Volunteer) <br/>&emsp; at <a href='https://xcom19.abakus.no' target='newtab'>XCOM 2018</a>  (March 2017 - May 2018)</li>
+            <li>Full Stack Web Developer (Volunteer) <br/>&emsp; at <a href='https://isfit.org' target='newtab'>ISFiT 2017</a> (April 2016 - March 2017)</li>
             <li>Summer assistant at the produce section <br/> &emsp; at Coop Obs hypermarked Elverum (Summer 2013)</li>
           </ul>
 
@@ -91,8 +92,8 @@ class CV extends Component {
             <li><a href='https://github.com/kimborgen' target='newtab'>github.com/kimborgen</a><img src="https://image.flaticon.com/icons/svg/25/25231.svg" /></li>
             <li><a href='mailto:me@kimborgen.com'>me@kimborgen.com</a> <i className="material-icons">email</i></li>
             <li><a href='http://kimborgen.com' target='newtab'>kimborgen.com</a> <i className="material-icons">public</i></li>
+            <li>+47 48357052 <i className="material-icons">phone</i></li>
             <li>24-05-1996 <i className="material-icons">cake</i></li>
-            <li>48357052 <i className="material-icons">phone</i></li>
           </ul>
 
         </section>
