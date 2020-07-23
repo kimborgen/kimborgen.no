@@ -16,6 +16,7 @@ export default class InstaFeed extends Component {
     }
 
     componentDidMount() {
+        /*
         fetch("https://api.instagram.com/v1/users/self/media/recent/?access_token=3194917592.65f9935.c380c28b014c4c228164b791f469c553")
         .then(response => {
             return response.json()
@@ -46,7 +47,7 @@ export default class InstaFeed extends Component {
                 })
             })
         })
-        
+        */   
     }
     
     handleDrag = (e,data) => {
@@ -56,28 +57,18 @@ export default class InstaFeed extends Component {
         })
     }
 
+    /*
+
+    */
+
   render() {
-      if (this.state.posts === undefined) {
-          return (<p>loading</p>)
-      } else {
-          return (
-            <div id='instafeed' className="instafeed">
-                <h3>Instagram feed - scroll or drag to show more</h3>
-                
-                <Draggable
-                    axis="x"
-                    onDrag={this.handleDrag}
-                    >
-                    <div>
-                        <HorizontalScroll animValues={this.state.deltaX}>
-                            {this.state.posts.map((post) => {
-                                return post
-                            })}
-                        </HorizontalScroll>
-                    </div>
-                </Draggable>
-            </div>
-          );
-      }
+        return (
+        <div id='instafeed' className="instafeed">
+            <h3>Instagram feed - scroll or drag to show more</h3>
+            
+            <p>nvm instagram nuked their api, building a scraper instead brb</p>
+        </div>
+        );
+      
   }
 }
